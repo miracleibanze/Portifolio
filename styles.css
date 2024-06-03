@@ -36,8 +36,7 @@ body{
   }
   .paper .main-right {
     min-width : 25rem;
-    min-height:100% ;
-    background-color :red;
+    min-height:100% ;  
     display :flex ;
     position :absolute ;
     top:0;
@@ -57,8 +56,11 @@ body{
     border: 8px solid blue;
   }
   .front-page{
+    border-left: none;
   }
-  
+  .back-page{
+    border-right: none;
+  }
 
   .paper .main-right .front-page{
     min-width:100%;
@@ -66,6 +68,7 @@ body{
     position :absolute;
     background-color:#00013a;
     transform :rotatey(0deg) translatez(1px);
+    border-left: 8px solid blue;
   }
   .paper .main-right .front-page .main-part{
     text-align: center;
@@ -253,6 +256,7 @@ h1.portifolio-title{
     position:absolute;
     background-color: #ffff;
     transform :rotatey(180deg) translatez(1px);
+    border-right: 8px solid blue;
   }		
   
   .paper .main-right4.turn{
