@@ -21,10 +21,36 @@ body{
     justify-content :center ;
     align-items :center ;
     background-color:#00013a;
-    
 
   }
-
+  .welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    height: 80%;
+    width: 25rem;
+    right: 50vw;
+    font-size: 130%;
+    color: rgb(129, 128, 128);
+  }
+  .welcome a{
+    text-decoration: none;
+    color: rgb(129, 128, 128);
+  }
+  .welcome button{
+    position: relative;
+    border-radius: 40px;
+    outline: none;
+    background-color: purple;
+    color: #00013a;
+    padding: .4rem;
+    width: 12rem;
+    font-size: 120%;
+  }
+  .welcome h3{
+    color: #009efa;
+  }
   .paper{
     min-width:100% ;
     min-height: 85vh;
@@ -44,7 +70,7 @@ body{
     z-index :35;
     transform-style :preserve-3d ;
     transform-origin :left ;
-    transition :3s;
+    transition :2s;
     
   }
   .front-page,
@@ -161,7 +187,7 @@ h1.portifolio-title{
     z-index :16;
     transform-style :preserve-3d ;
     transform-origin :left ;
-    transition :3s;
+    transition :2s;
     
   }
   
@@ -199,7 +225,7 @@ h1.portifolio-title{
     z-index :8;
     transform-style :preserve-3d ;
     transform-origin :left ;
-    transition :3s;
+    transition :2s;
     
   }
   
@@ -237,7 +263,7 @@ h1.portifolio-title{
     z-index :5;
     transform-style :preserve-3d ;
     transform-origin :left ;
-    transition :3s;
+    transition :2s;
     
   }
   
